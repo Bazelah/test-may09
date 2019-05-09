@@ -1,0 +1,39 @@
+/* Write your CSS below. Try to make it responsive (i.e. no horizontal scroll) */
+#add-btn{
+background-color: #ec4b75;
+color: white;
+padding: 10px 38px;
+border: none;
+}
+
+button:hover{
+    background-color: #ec4b75;
+    cursor: pointer;
+}
+
+
+
+p{
+    font-size: 30px;
+    color: #f2537b;
+}
+
+
+ul{
+    list-style: none;
+    text-align: right;
+    margin-top: 10px;
+}
+
+li{
+    display: inline-block;
+    padding: 10px;
+}
+
+header{
+    width: 100%;
+}
+
+.stars{
+    color: #f8b732;
+}
