@@ -1,39 +1,62 @@
 /* Write your CSS below. Try to make it responsive (i.e. no horizontal scroll) */
-#add-btn{
-background-color: #ec4b75;
-color: white;
-padding: 10px 38px;
-border: none;
+
+
+body{
+    background-color: #f7f7f7;
+    font-family: 'Source Sans Pro', sans-serif;
+
 }
 
-button:hover{
-    background-color: #ec4b75;
-    cursor: pointer;
-}
-
-
-
-p{
-    font-size: 30px;
-    color: #f2537b;
-}
-
-
-ul{
+#ham{
+display: none;
     list-style: none;
     text-align: right;
     margin-top: 10px;
 }
 
-li{
+#add-btn {
+    background-color: #ec4b75;
+    color: white;
+    padding: 10px 38px;
+    border: none;
+}
+
+button:hover {
+    background-color: #ec4b75;
+    cursor: pointer;
+}
+
+p {
+    font-size: 30px;
+    color: #f2537b;
+}
+
+ul {
+    list-style: none;
+    text-align: right;
+    margin-top: 10px;
+}
+
+li {
     display: inline-block;
     padding: 10px;
 }
 
-header{
+header {
     width: 100%;
 }
 
-.stars{
+.stars {
     color: #f8b732;
+}
+
+@media (max-width: 600px){
+#ham {
+display: block;
+}
+nav {
+display: none;
+}
+
+
 }
